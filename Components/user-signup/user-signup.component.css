@@ -1,0 +1,22 @@
+.row{
+    padding-left:30%;
+}
+ 
+.background-image {
+    background-image: url('/assets/Images/registration.jfif');
+    background-size: cover; /* Or 'contain' based on your preference */
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 50%;
+    position: absolute; /* Position it behind the content */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.card {
+    background: rgba(194, 221, 231, 0.9); /* Add a semi-transparent background to the card */
+    border-radius: 10px; /* Optional: round the corners of the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: add a shadow effect */
+}

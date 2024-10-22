@@ -1,0 +1,17 @@
+.background-image{
+    background-image: url('/assets/Images/adminlogin.jfif');
+    background-size: cover; /* Or 'contain' based on your preference */
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 50%;
+    position: absolute; /* Position it behind the content */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;  
+}
+.card-body{
+    background-color: rgba(241, 228, 201, 0.507);
+   
+}

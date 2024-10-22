@@ -1,0 +1,44 @@
+:host {
+    display: block; /* Ensure the host element takes up space */
+    min-height: 100vh; /* Set minimum height */
+    background-image: url('/assets/Images/contact-image.jfif');
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+}
+ 
+.row{
+    padding-right: 50px;
+ 
+}
+/* .card mb-4 shadow-sm{
+    background: cyan;
+} */
+ 
+.container mt-5{
+    /* padding-right: 50px; */
+    padding: 0px;
+    margin: 0px;
+}
+ 
+ 
+h1 {
+    color: #b41408;
+    margin-bottom: 20px;
+}
+ 
+p {
+    margin-bottom: 20px;
+}
+ 
+.form-control {
+    border-radius: 0.25rem;
+}
+ 
+.btn {
+    border-radius: 0.25rem;
+    font-weight: bold;
+}
+ 
+.text-center {
+    margin-right: 700px;
+}

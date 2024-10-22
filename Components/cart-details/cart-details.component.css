@@ -1,0 +1,16 @@
+.background-image{
+ 
+ 
+    background-image: url('/assets/Images/admin.jfif');
+        background-size: cover; /* Or 'contain' based on your preference */
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-left: 50%;
+        position: absolute; /* Position it behind the content */
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+     

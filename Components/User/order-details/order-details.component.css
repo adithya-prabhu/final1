@@ -1,0 +1,33 @@
+/* .background-image{
+    background-image: url('/assets/Images/payment2.jpg');
+    background-size: cover; /* Or 'contain' based on your preference
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 50%;
+    position: absolute; /* Position it behind the content
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;  
+} */
+ 
+:host {
+    display: block; /* Ensure the host element takes up space */
+    min-height: 100vh; /* Set minimum height */
+    background-image: url('/assets/Images/payment2.jfif');
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+}
+ 
+.card-body{
+    background-color: rgba(188, 232, 245, 0.74);
+    padding-left: 20px;
+    padding-right: 100px;
+    padding-top: 5px;
+ 
+}
+ 
+.card-header{
+    background-color: rgba(198, 233, 241, 0.479);
+}

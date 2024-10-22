@@ -1,0 +1,14 @@
+.custom-card {
+    width: 100%; /* Make the card full width */
+    max-width: 500px; /* Set a max width for larger screens */
+    padding: 20px; /* Add padding to the card */
+    margin: auto; /* Center the card horizontally */
+}
+ 
+:host {
+    display: block; /* Ensure the host element takes up space */
+    min-height: 100vh; /* Set minimum height */
+    background-image: url('/assets/Images/user-login.jfif');
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+}

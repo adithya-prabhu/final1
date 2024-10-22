@@ -1,0 +1,42 @@
+<div class="container" >
+    <div class="row">
+        <div class="col-lg-4 col-md-8 mx-auto" style="margin-top: 150px;" >
+    <div class="row" >
+        <div class="col-lg-4 col-md-8 mx-auto custom-card">
+ 
+            <div class="card mt-5 bg-light" >
+                <div class="card-body" style="margin-left: 30px; margin-right: 30px; margin-bottom: 10px;">
+                    <div class="text-center">
+                        <h4 class="card-title">Welcome User</h4>
+                        <p>Sign in to continue.</p>
+                    </div>
+                    <hr>
+                    <form #login="ngForm" (ngSubmit)="onSubmit()">
+                        <div class="form-group">
+                            <label for="email"><b>Username:</b></label> <input type="text" name="username"
+                                #username="ngModel" class="form-control" pattern="[A-Za-z0-9\._%+\-]+@[A-Za-z0-9\.\-]+\.[A-Za-z]{2,}" placeholder="Enter Username" id="email"
+                                [(ngModel)]="credentials.username" required ngModel>
+                            <span *ngIf="username.invalid && username.touched" style="color:rgb(247, 20, 20)">Please enter a valid
+                                username.</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd"><b>Password:</b></label> <input type="password" name="password"
+                                #password="ngModel" minlength="6" class="form-control" pattern="^[a-zA-Z0-9]{6,}$"
+                                placeholder="Enter password"
+                                id="pwd" [(ngModel)]="credentials.password" required ngModel>
+                            <span *ngIf="password.invalid && password.touched" style="color: rgb(247, 10, 10)">Please enter a valid
+                                password.</span>
+                        </div>
+                        <button type="submit" class="btn btn-danger btn-block" [disabled]="login.invalid">Login</button>
+ 
+                    </form>
+                    
+                    <div class="text-center mt-3">
+                        <a routerLink="/forgot-password"  style="color: black;">Forgot Password?</a>
+                    </div>
+                </div>
+            </div>
+ 
+        </div>
+    </div>
+</div>
